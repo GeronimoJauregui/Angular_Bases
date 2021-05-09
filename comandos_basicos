@@ -1,0 +1,3 @@
+ng --version -> versiones que tienes en tu proyecto
+ng serve -> para levantar el servidor (puedes enviarle mas datos como puerto o dominio donde quieres que corra, normalmente usa el puerto 4200)
+ng build --prod -> similar a serve, se usa para alistar la aplicación para producción, te genera una capeta en tu proyecto llamada “dist” donde crea lo necesario para montar en producción.
