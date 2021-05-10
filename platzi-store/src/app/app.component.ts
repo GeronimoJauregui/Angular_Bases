@@ -51,5 +51,10 @@ export class AppComponent {
       price: 80000,
       description: 'bla bla bla bla'
     }
-  ]
+  ];
+
+  // tslint:disable-next-line: typedef
+  clickProduct(id: number){
+    console.log('idProduct', id);
+  }
 }
